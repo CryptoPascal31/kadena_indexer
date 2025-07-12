@@ -27,7 +27,7 @@ def pact_hook(x):
             return x
     if "int" in x:
         v = int(x["int"])
-        return v if v.bit_length() <= 64 else str(v)
+        return v if v.bit_length() < 64 else str(v)
     return x
 
 # pylint: disable=missing-function-docstring, multiple-statements
