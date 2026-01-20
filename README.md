@@ -1,4 +1,4 @@
-# Kadena Chwainweb Indexer
+# Kadena Chainweb Indexer
 
 ## Introduction
 
